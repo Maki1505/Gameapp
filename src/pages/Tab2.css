@@ -1,0 +1,32 @@
+
+ion-col {
+    background-color: #000f2a;
+    color: #fff;
+    text-align: center;
+    object-fit: cover;
+}
+
+.section-header{
+    font-style: bold;
+    color: white;
+    font-size: 1.2rem;
+    font-family: "Orbitron";
+}
+
+.card-image {
+    height: 15rem;
+    width: 15rem;
+    object-fit: cover;
+}
+
+.price { 
+    font-size: 1rem;
+    color: antiquewhite;
+}
+
+.hover:hover {
+   color: rgb(161, 229, 238);
+}
+
+
+

@@ -1,0 +1,81 @@
+h2 {
+    text-align: center;
+    font-size: 1.4rem;
+    color: white;
+}
+
+.google-btn {
+
+    font-size: 1rem;
+    text-align: center;
+    margin-left: 1rem;
+    width: 90%;
+    background-color: white !important;
+    color: black;
+}
+
+.facebook-btn {
+    font-size: 1rem;
+    margin-left: 1rem;
+    width: 90%;
+    text-align: center;
+    color: white;
+    background-color: wheat;
+    margin-bottom: 1rem;
+}
+
+.orders {
+    font-size: 1rem;
+    color: aliceblue;
+}
+
+.google-btn,
+.facebook-btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    width: 90%;
+    text-align: left;
+}
+
+.google-btn ion-icon,
+.facebook-btn ion-icon {
+    margin-right: 30px;
+}
+
+.first-list {
+    width: 65%;
+    margin: auto;
+    margin-top: 1rem;
+    border-radius: 5px;
+    padding: 1rem;
+    height: 20%;
+    text-align: center;
+}
+
+.second-list {
+    margin-top: 30px;
+    width: 50%;
+    width: 80%;
+    margin: auto;
+    margin-top: 1rem;
+    border-radius: 5px;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+.buy {
+    color: black;
+}
+
+.sign-out {
+    margin: auto;
+    text-align: center;
+    margin-top: 1rem;
+    padding: auto;
+    width: 90%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}

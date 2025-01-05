@@ -9,8 +9,8 @@ const Tab2: React.FC = () => {
       <IonContent>
         <IonGrid fixed={true}>
           <IonRow>
-          <IonItemDivider>
-            <h2 className='section-header'>Shooting games</h2>
+          <IonItemDivider className='color'>
+            <h2 className='section'>Shooting games</h2>
           </IonItemDivider>
             <IonCol>
               <IonCard>
@@ -42,8 +42,8 @@ const Tab2: React.FC = () => {
             </IonCol>
           </IonRow>
 
-          <IonItemDivider>
-            <h2 className='section-header'>Action games</h2>
+          <IonItemDivider className='color'>
+            <h2 className='section'>Action games</h2>
           </IonItemDivider>
 
           <IonRow>
@@ -76,8 +76,8 @@ const Tab2: React.FC = () => {
             </IonCol>
           </IonRow>
 
-          <IonItemDivider>
-            <h2 className='section-header'>Marvel games</h2>
+          <IonItemDivider className='color'>
+            <h2 className='section'>Marvel games</h2>
           </IonItemDivider>
 
           <IonRow>
@@ -107,8 +107,8 @@ const Tab2: React.FC = () => {
             </IonCard></IonCol>
           </IonRow>
 
-          <IonItemDivider>
-            <h2 className='section-header'>Simulation games</h2>
+          <IonItemDivider className='color'>
+            <h2 className='section'>Simulation games</h2>
           </IonItemDivider>
 
           <IonRow>

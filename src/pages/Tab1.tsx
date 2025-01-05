@@ -30,7 +30,7 @@ const Tab1: React.FC = () => {
 
         <h2 className='section-header'><b>New arrivals</b></h2>
         <IonCard >
-          <img  alt="Call of duty Modern warfare III" src="https://imgs.search.brave.com/IF7jGMLwF4-zsWqsDaW-BxEi2U28WW1MPs-W52iLeIw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMueGJveHNlcnZp/Y2VzLmNvbS9hc3Nl/dHMvNzEvYjUvNzFi/NTBmMjktNTc5OS00/YmUxLTk3ZWYtZDU4/ZDU3YzlmZTM3Lmpw/Zz9uPUNvRC1Nb2Rl/cm4tV2FyZmFyZS1J/SUlfR0xQLVBhZ2Ut/SGVyby0wXzEwODN4/MTIyMl8wMi5qcGc" />
+          <img alt="Call of duty Modern warfare III" src="https://imgs.search.brave.com/IF7jGMLwF4-zsWqsDaW-BxEi2U28WW1MPs-W52iLeIw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMueGJveHNlcnZp/Y2VzLmNvbS9hc3Nl/dHMvNzEvYjUvNzFi/NTBmMjktNTc5OS00/YmUxLTk3ZWYtZDU4/ZDU3YzlmZTM3Lmpw/Zz9uPUNvRC1Nb2Rl/cm4tV2FyZmFyZS1J/SUlfR0xQLVBhZ2Ut/SGVyby0wXzEwODN4/MTIyMl8wMi5qcGc" />
           <IonCardHeader>
             <IonCardTitle className='game'>Call of Duty Modern Warfare III</IonCardTitle>
             <IonCardSubtitle className='year'>2022</IonCardSubtitle>
@@ -41,15 +41,16 @@ const Tab1: React.FC = () => {
 
 
         <h2 className='section-header'><b>Trending</b></h2>
-        <IonCard >
-          <img  alt="The Last Of Us" src="https://m.media-amazon.com/images/M/MV5BY2JiNjU3NWYtMTRlYS00NzY3LWE2NDQtZGFkNWE2MDU4OTExXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" />
-          <IonCardHeader>
+        <IonCard className='picture'>
+          <img alt="The Last Of Us" src="https://m.media-amazon.com/images/M/MV5BY2JiNjU3NWYtMTRlYS00NzY3LWE2NDQtZGFkNWE2MDU4OTExXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" />
+          <IonCardHeader className='header'>
             <IonCardTitle className="game">The Last Of Us - Remastered</IonCardTitle>
             <IonCardSubtitle className='year'>2013</IonCardSubtitle>
           </IonCardHeader>
 
           <IonCardContent className='text'>It's a game about apocalypse in our current world.The fans love it.The remastered version is out.</IonCardContent>
         </IonCard>
+
 
       </IonContent>
     </IonPage>

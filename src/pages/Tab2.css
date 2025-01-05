@@ -3,10 +3,11 @@ ion-col {
     text-align: center;
 }
 
-.section-header {
-    
+.section {
     font-size: 1.2rem;
     font-family: "Orbitron";
+    color: white;
+
 }
 
 .card-image {
@@ -22,13 +23,16 @@ ion-col {
 
 .hover {
     color: white;
+    font-size: 1rem;
 }
 
 .hover:hover {
    color: rgb(161, 229, 238);
 }
 
-
+.color {
+    background-color: #000f2a;
+}
 
 
 

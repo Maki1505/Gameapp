@@ -15,7 +15,7 @@ const Tab5: React.FC = () => {
   return (
     <IonPage>
       <IonContent fullscreen>
-        <h2>Gaming place</h2>
+        <h2 className='section-header'>Gaming place</h2>
 
         <IonButton color="white" className="google-btn">
           <IonIcon aria-hidden="true" icon={logoGoogle} /> Sign in with Google

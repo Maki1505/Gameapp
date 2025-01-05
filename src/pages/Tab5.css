@@ -95,19 +95,22 @@
 }
 
 .settings ion-icon {
-    color: black;
+    color: rgb(255, 255, 255);
     display: flex;
     margin-right: 10px;
 }
 
-.settings  {
+.settings {
     width: 65%;
-    margin: 0 2rem;
-    text-align: left;
-    background-color: #ffffff !important;
-    color: black;
+    /* margin: 6 0; */
+    /* background-color: #0051ff !important; */
+    color: rgb(255, 255, 255);
     font-family: "Orbitron";
     border-radius: 6px;
-    margin-bottom: 5px;
+    font-size: 0.7rem;
+    height: 3%;
+    font-weight: 100;
+    text-align: center;
+    justify-content: center;
 }
 

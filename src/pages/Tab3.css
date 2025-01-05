@@ -1,0 +1,22 @@
+.ikona {
+    color: white;
+    font-size: 3rem;
+    margin-left: 2rem;
+    --border-radius: 6px;
+}
+
+ion-search-bar {
+    --border-radius: 1rem;
+}
+
+.slika {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    justify-content: center;
+}
+
+.title {
+    color: white;
+    font-family: "Orbitron";
+}

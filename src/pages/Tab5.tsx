@@ -65,24 +65,13 @@ const Tab5: React.FC = () => {
           </IonItem>
         </IonList>
 
-        <IonList className="second-list" lines="none">
-          <IonItem>
-            <IonLabel>Notifications</IonLabel>
+      
             <IonButton color={"white"}  className="settings">
           <IonIcon aria-hidden="true" icon={informationCircleOutline} /> Help Center
         </IonButton>
         <IonButton color={"white"}  className="settings">
           <IonIcon aria-hidden="true" icon={informationOutline} /> Language: English
         </IonButton>
-          </IonItem>
-          <IonItem>
-            <IonLabel>Privacy & security</IonLabel>
-            <IonIcon aria-hidden="false" icon={fingerPrintOutline}/>
-          </IonItem>
-          </IonList>
-
-
-
         {/* <IonButton className='sign-out' color="danger">Sign out</IonButton> */}
       </IonContent>
     </IonPage>

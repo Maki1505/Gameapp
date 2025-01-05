@@ -11,6 +11,11 @@
     font-size: 1.4rem;
 }
 
+.paragraf {
+    color: rgb(42, 42, 219);
+    text-align: center;
+}
+
 .google-btn {
     font-size: 1rem;
     text-align: center;
@@ -88,3 +93,21 @@
     margin-left: 1rem;
     margin-right: 1rem;
 }
+
+.settings ion-icon {
+    color: black;
+    display: flex;
+    margin-right: 10px;
+}
+
+.settings  {
+    width: 65%;
+    margin: 0 2rem;
+    text-align: left;
+    background-color: #ffffff !important;
+    color: black;
+    font-family: "Orbitron";
+    border-radius: 6px;
+    margin-bottom: 5px;
+}
+

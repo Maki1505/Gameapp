@@ -9,7 +9,7 @@ import {
   IonItem,
 } from '@ionic/react';
 import './Tab5.css';
-import { analyticsOutline, cardOutline, fingerPrintOutline, headsetOutline, heartHalfOutline, languageOutline, logoFacebook, logoGoogle, notifications, notificationsCircle, notificationsCircleOutline, receiptOutline } from 'ionicons/icons';
+import { analyticsOutline, cardOutline, fingerPrintOutline, headsetOutline, heartHalfOutline, information, informationCircleOutline, informationOutline, languageOutline, logoFacebook, logoGoogle, notifications, notificationsCircle, notificationsCircleOutline, receiptOutline } from 'ionicons/icons';
 
 const Tab5: React.FC = () => {
   return (
@@ -23,6 +23,7 @@ const Tab5: React.FC = () => {
         <IonButton className="facebook-btn">
           <IonIcon aria-hidden="true" icon={logoFacebook} /> Sign in with Facebook
         </IonButton>
+        <p className='paragraf'>Other Methods</p>
 
         {/* <IonItemDivider className='buy'>Buying</IonItemDivider>
 
@@ -39,7 +40,7 @@ const Tab5: React.FC = () => {
 
         <IonList className="second-list" lines="none">
           <IonItem>
-            <IonLabel>Notification</IonLabel>
+            <IonLabel>Notifications</IonLabel>
             <IonIcon aria-hidden="false" icon={notificationsCircleOutline}/>
           </IonItem>
           <IonItem>
@@ -63,6 +64,23 @@ const Tab5: React.FC = () => {
             <IonIcon aria-hidden="false" icon={headsetOutline}/>
           </IonItem>
         </IonList>
+
+        <IonList className="second-list" lines="none">
+          <IonItem>
+            <IonLabel>Notifications</IonLabel>
+            <IonButton color={"white"}  className="settings">
+          <IonIcon aria-hidden="true" icon={informationCircleOutline} /> Help Center
+        </IonButton>
+        <IonButton color={"white"}  className="settings">
+          <IonIcon aria-hidden="true" icon={informationOutline} /> Language: English
+        </IonButton>
+          </IonItem>
+          <IonItem>
+            <IonLabel>Privacy & security</IonLabel>
+            <IonIcon aria-hidden="false" icon={fingerPrintOutline}/>
+          </IonItem>
+          </IonList>
+
 
 
         {/* <IonButton className='sign-out' color="danger">Sign out</IonButton> */}

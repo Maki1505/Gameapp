@@ -1,7 +1,7 @@
 .ikona {
     color: white;
     font-size: 3rem;
-    margin-left: 2rem;
+    margin-left: 1rem;
     --border-radius: 6px;
 }
 
@@ -10,7 +10,7 @@ ion-search-bar {
 }
 
 .slika {
-    height: 100%;
+    height: 110%;
     width: 100%;
     object-fit: cover;
     justify-content: center;
@@ -19,4 +19,14 @@ ion-search-bar {
 .title {
     color: white;
     font-family: "Orbitron";
+}
+
+.ion-card {
+    height: 100%;
+    border-radius: 6px;
+}
+
+.cart-text {
+    color: blue;
+    margin-left: 2rem;
 }

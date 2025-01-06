@@ -1,0 +1,46 @@
+.item-btn {
+    /* display: block; */
+    width: 92%;
+    margin-left: 1rem;
+    color: white;
+    font-family: "Orbitron";
+    text-transform: none;
+    background-color:  #000f2a !important;
+    border-radius: 8px;
+}
+
+span {
+    margin-left: 1rem;
+    color: rgb(184, 176, 176);
+}
+
+.icon-arrow {
+   text-align: left;
+   margin-right:  0.7rem;
+}
+
+.trash {
+     margin-left: 2.5rem;
+}
+
+.discount {
+    width: 92%;
+    margin-left: 1rem;
+    border-radius: 8px;
+   
+}
+
+.discount-code  {
+    color: white;
+    font-family: "Orbitron";
+}
+
+.price-total {
+    color: white;
+    font-family: "Orbitron";
+    margin-left: 1rem;
+}
+
+.totala {
+    margin-left: 18rem;
+}

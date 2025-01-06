@@ -70,7 +70,7 @@ const Tab5: React.FC = () => {
           <IonIcon aria-hidden="true" icon={informationCircleOutline} /> Help Center
         </IonButton>
         <IonButton color={"white"}  className="settings">
-          <IonIcon aria-hidden="true" icon={informationOutline} /> Language: English
+          <IonIcon aria-hidden="true" icon={informationOutline} /> Support
         </IonButton>
         {/* <IonButton className='sign-out' color="danger">Sign out</IonButton> */}
       </IonContent>

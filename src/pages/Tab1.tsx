@@ -1,12 +1,14 @@
-import { IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonContent, IonHeader, IonLabel, IonPage, IonSearchbar, IonSegment, IonSegmentButton, IonSegmentContent, IonSegmentView, IonTitle, IonToolbar } from '@ionic/react';
+import { IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonContent, IonHeader, IonIcon, IonLabel, IonPage, IonSearchbar, IonSegment, IonSegmentButton, IonSegmentContent, IonSegmentView, IonTitle, IonToolbar } from '@ionic/react';
 import ExploreContainer from '../components/ExploreContainer';
 import './Tab1.css';
+import { heartHalfOutline } from 'ionicons/icons';
 
 const Tab1: React.FC = () => {
   return (
     <IonPage>
 
       <IonContent className="ion-padding">
+        <h2 className='section-head'>Gaming place  <IonIcon className='google' aria-hidden="true" icon={heartHalfOutline} /></h2>
         <IonSearchbar animated={true} placeholder="Pretraži..."></IonSearchbar>
 
         <IonSegment value="second">

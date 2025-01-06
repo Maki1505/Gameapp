@@ -1,12 +1,14 @@
 import {
-  IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonCol, IonContent, IonGrid, IonItemDivider, IonLabel, IonPage, IonRow,
+  IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonCol, IonContent, IonGrid, IonIcon, IonItemDivider, IonLabel, IonPage, IonRow,
 } from '@ionic/react';
 import './Tab2.css';
+import { heartHalfOutline } from 'ionicons/icons';
 
 const Tab2: React.FC = () => {
   return (
     <IonPage>
       <IonContent>
+         <h2 className='section-head'>Gaming place  <IonIcon className='google' aria-hidden="true" icon={heartHalfOutline} /></h2>
         <IonGrid fixed={true}>
           <IonRow>
           <IonItemDivider className='color'>
